@@ -1,0 +1,32 @@
+{
+  "name": "verivoxauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.12.0",
+    "@wdio/local-runner": "^6.12.0",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chai": "^4.3.0",
+    "chance": "^1.1.7",
+    "chromedriver": "^87.0.7",
+    "gulp": "^4.0.2",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "request": "^2.88.2",
+    "util": "^0.12.3",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
