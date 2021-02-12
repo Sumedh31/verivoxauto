@@ -61,7 +61,10 @@ describe('Ensure 77716 post code returns multiple cities', function () {
         for(i=0;i<entries;i++){
             expect(typeof res.body.Cities[i]).to.equal("string");
             expect(res.body.Cities[i].toString()).to.equal(citiesin77716[i]); 
-        }           
+        }  
+        console.info("Test character");
+        console.info("Küselstr".includes("ü"));
+
         
     });
 });
