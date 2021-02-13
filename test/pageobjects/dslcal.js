@@ -20,6 +20,8 @@ class DslCal extends Base {
     get recommendeditems () {return $$('//*[contains(text(),"Verivox-Tarifempfehlung")]//..//div[@class="owl-item active"]')}
     get ermittelte () {return $$('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]')}
     get loadmore () {return $('//button[@class="btn btn-primary text-uppercase"]')}
+    get ermitteltedataspeed (){return $$('//*[contains(text(),"Ermittelte Tarife")]//..//..//div[@class="row my-4"]//app-tariff-speed//div[contains(@class,"speed-download")]//b')}
+    //get ermitteltedataspeed (){return $('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]//img[@class="download-icon"]/following-sibling::b')}
     
 
     /**
@@ -39,18 +41,36 @@ class DslCal extends Base {
         //Select the given bandwidth by reading values from bandwitdh map
         this.bandwitdh[bandwitdhMap[bandwidth]].click();
         this.submitbutton.click();
-        this.recommended.waitForExist({ timeout:5000, interval:100 });
+        this.recommended.waitForExist({ timeout:8000, interval:100 });
 
         //Ensure at least single item is loaded in verivox recommendation before continuing
         browser.waitUntil(
-            ()=>this.recommendeditems.length>=1,{timeout:5000, timeoutMsg: 'Not enough items were loaded'}
+            ()=>this.recommendeditems.length>=1,{timeout:8000, timeoutMsg: 'Not enough items were loaded',interval:100}
         );
 
         //Ensure at least 10 items are loaded
         browser.waitUntil(
-            ()=>this.ermittelte.length>=10,{timeout:5000, timeoutMsg: 'Not enough items were loaded in Ermittelte Tarif'}
+            ()=>this.ermittelte.length>=10,{timeout:8000, timeoutMsg: 'Not enough items were loaded in Ermittelte Tarif',interval:100}
         );
-        
+    }
+    /**
+    * a method to ensure all ermittelte traiffs have download speed more than given speedtocheck
+    * @param speedCheck - speedCheck e.g 100
+    */
+    EnsureDataSpeedIsGreaterThanGiven(speedCheck){
+        var tarifNumber=1;
+        var isAllSpeedGreaterThanGiven=false;
+        for(tarifNumber;tarifNumber<this.ermitteltedataspeed.length;tarifNumber++){
+            var str=this.ermitteltedataspeed[tarifNumber].getText()
+            var speed=parseInt(str.replace(".",""));
+            if(!speed>=speedCheck)
+            {
+                return false;
+            }
+            isAllSpeedGreaterThanGiven=true;
+            //expect(speed).toBeGreaterThan(99);
+        }
+        return isAllSpeedGreaterThanGiven;
 
     }
 }
