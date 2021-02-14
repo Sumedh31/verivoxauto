@@ -4,67 +4,33 @@ const chance = require("chance");
 const addContext = require('mochawesome/addContext');
 
 const baseUrl = "https://service.verivox.de/geo/latestv2/cities/";
-const citycode10409 =baseUrl+"10409";
-const citycode77716 =baseUrl+"77716";
-const citiesin10409 =["Berlin"];
-const citiesin77716 =["Fischerbach","Haslach","Hofstetten"];
+const cities = {
+    'https://service.verivox.de/geo/latestv2/cities/10409': ["Berlin"],
+    'https://service.verivox.de/geo/latestv2/cities/77716': ["Fischerbach","Haslach","Hofstetten"]
+  }
 
-
-var _id, _res;
-
-const _headers = {
+  const _headers = {
     "Content-Type": "application/json"
 }
-var _body = {
-    
-};
 
-describe('Ensure 10409 post code returns single city', function () {
-    var res;
-    var entries;
-    
-    it('verify OK status', async function () {
+describe('Ensure 10409 and 77716 post codes returns respective cities', function () {
         
-        res = await api.GET(citycode10409, _headers);
-        addContext(this, 'Response: ' + JSON.stringify(res.body));
-        entries=res.body.Cities.length
-        expect(res.statusCode, 'status not OK').to.equal(200);
-        expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");
-    });
-
-    it('verify city is returned', function () {
-        //expect(res.body.Cities[0]);
-        //expect(res.body.Cities[0].toString()).to.equal("Berlin"); 
-        for(i=0;i<entries;i++){
-            expect(typeof res.body.Cities[i]).to.equal("string");
-            expect(res.body.Cities[i].toString()).to.equal(citiesin10409[i]); 
-        }
-            
+    it('verify Responses', async function () {        
         
-    });
-});
-describe('Ensure 77716 post code returns multiple cities', function () {
-    var res;
-    var entries;
-    
-    it('verify OK status', async function () {
-        
-        res = await api.GET(citycode77716, _headers);
-        addContext(this, 'Response: ' + JSON.stringify(res.body));
-        entries=res.body.Cities.length
-        expect(res.statusCode, 'status not OK').to.equal(200);
-        expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");
-    });
-
-    it('verify city is returned', function () {
-        //Ensure response matches the expected cities 
-        for(i=0;i<entries;i++){
-            expect(typeof res.body.Cities[i]).to.equal("string");
-            expect(res.body.Cities[i].toString()).to.equal(citiesin77716[i]); 
-        }  
-        console.info("Test character");
-        console.info("Küselstr".includes("ü"));
-
-        
+        Object.keys(cities).forEach(async k => {
+            console.log(k);
+            var res = await api.GET(k, _headers);
+            //console.log(res);
+            addContext(this, 'Response: ' + JSON.stringify(res.body));
+            var entries=res.body.Cities.length;            
+            expect(res.statusCode, 'status not OK').to.equal(200);
+            expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");
+            //Ensure Cities contain arrays with Strings and has expected cities
+            var i=0;
+            for(i=0;i<entries;i++){
+                expect(typeof res.body.Cities[i]).to.equal("string");
+                expect(res.body.Cities[i].toString()).to.equal(cities[k][i]); 
+            }            
+          }); 
     });
 });
