@@ -20,8 +20,11 @@ class DslCal extends Base {
     get recommendeditems () {return $$('//*[contains(text(),"Verivox-Tarifempfehlung")]//..//div[@class="owl-item active"]')}
     get ermittelte () {return $$('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]')}
     get loadmore () {return $('//button[@class="btn btn-primary text-uppercase"]')}
+    //This locator can also be used to get number of displayed tariffs on the page
     get ermitteltedataspeed (){return $$('//*[contains(text(),"Ermittelte Tarife")]//..//..//div[@class="row my-4"]//app-tariff-speed//div[contains(@class,"speed-download")]//b')}
     get weiterbutton (){return $('button[type="button"][class*=btn-primary]')}
+    get DSLMenu (){return $('//input[@id="page-navigation-control3"]//..')}
+    get DSLvergleich (){return $('.page-navigation-col a[href="/dsl-vergleich/"]')}
     //get ermitteltedataspeed (){return $('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]//img[@class="download-icon"]/following-sibling::b')}
     
 
@@ -29,7 +32,8 @@ class DslCal extends Base {
      * a method to navigate to dsl calculator
      */
     NavigateToDSlCalCulator(){
-        browser.url('https://www.verivox.de/dsl-vergleich/');
+        this.DSLMenu.moveTo();
+        this.DSLvergleich.click();
         this.calForm.waitForExist({ timeout:3000, interval:100 });
     } 
     /**
