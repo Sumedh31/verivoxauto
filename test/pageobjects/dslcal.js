@@ -32,6 +32,7 @@ class DslCal extends Base {
      * a method to navigate to dsl calculator
      */
     NavigateToDSlCalCulator(){
+        this.DSLMenu.waitForExist({ timeout:3000, interval:100 });
         this.DSLMenu.moveTo();
         this.DSLvergleich.click();
         this.calForm.waitForExist({ timeout:3000, interval:100 });

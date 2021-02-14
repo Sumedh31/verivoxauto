@@ -17,14 +17,7 @@ class HomePage extends Base {
     AcceptCookiesIfExist(){
         this.cookies.waitForExist({ timeout:5000, timeoutMsg:'Cookies popup not present', interval:100 });
         this.cookiesAccept.click();
-    }        
-    search (keyword){
-        this.searchBar.setValue(keyword);
-    }
-    WaitUntilElementAppearsAfterSearch(){
-        this.searchResults.waitForExist({ timeout:8000, timeoutMsg:'Page elements were not loaded', interval:100 });
-    }
-    
+    }   
 
     /**
      * overwrite specifc options to adapt it to page object
