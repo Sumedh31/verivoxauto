@@ -1,312 +1,488 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="DSL_Calculator_verification" timestamp="2021-02-14T11:28:59" time="121.492" tests="2" failures="0" errors="0" skipped="0">
+  <testsuite name="DSL_Calculator_verification" timestamp="2021-02-14T12:05:59" time="21.168" tests="2" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="DSL Calculator verification"/>
       <property name="capabilities" value="chrome.88_0_4324_150.windows"/>
       <property name="file" value=".\test\specs\dslcalculator.js"/>
     </properties>
-    <testcase classname="chrome.88_0_4324_150.windows.DSL_Calculator_verification" name="Using_the_calculator_I_should_see_available_tariffs_for_my_selection" time="81.324">
+    <testcase classname="chrome.88_0_4324_150.windows.DSL_Calculator_verification" name="Using_the_calculator_I_should_see_available_tariffs_for_my_selection" time="8.358">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/url - {"url":"https://www.verivox.de/"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/url - {"url":"https://www.verivox.de/"}
 RESULT: {"url":"https://www.verivox.de/"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/window/maximize - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/window/maximize - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
 RESULT: {"using":"xpath","value":"//div[contains(@class,\"cmp-container\")]//*[contains(text(),\"Cookie-Einstellungen\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"#uc-btn-accept-banner"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"#uc-btn-accept-banner"}
 RESULT: {"using":"css selector","value":"#uc-btn-accept-banner"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/c0b78c75-89da-4f49-a1e4-466a821e4bf9/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/055019fc-3ba0-4ef6-8888-ad8ea3b89493/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/url - {"url":"https://www.verivox.de/dsl-vergleich/"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/url - {"url":"https://www.verivox.de/dsl-vergleich/"}
 RESULT: {"url":"https://www.verivox.de/dsl-vergleich/"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
 RESULT: {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
 RESULT: {"using":"css selector","value":"div[class=\"hero-content\"] .calculator-form"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"div[class=\"hero-content\"] input[name=\"phonePrefix\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"div[class=\"hero-content\"] input[name=\"phonePrefix\"]"}
 RESULT: {"using":"css selector","value":"div[class=\"hero-content\"] input[name=\"phonePrefix\"]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/3100ef27-266d-427d-b30c-8236d37bee4e/clear - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/c03ae27e-ae88-4724-9ea9-5f3e1686c2c3/clear - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/3100ef27-266d-427d-b30c-8236d37bee4e/value - {"text":"030"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/c03ae27e-ae88-4724-9ea9-5f3e1686c2c3/value - {"text":"030"}
 RESULT: {"text":"030"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//div[@class=\"hero-content\"]//div[contains(@class,\"calc-toggles\")]//label"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//div[@class=\"hero-content\"]//div[contains(@class,\"calc-toggles\")]//label"}
 RESULT: {"using":"xpath","value":"//div[@class=\"hero-content\"]//div[contains(@class,\"calc-toggles\")]//label"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/0cfe6b5a-7aea-481f-9b81-0251e8262df7/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/b5b11784-1ce9-4570-8b4f-b8ea7c913bb0/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"div[class=\"hero-content\"] button[type=\"submit\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"div[class=\"hero-content\"] button[type=\"submit\"]"}
 RESULT: {"using":"css selector","value":"div[class=\"hero-content\"] button[type=\"submit\"]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/b9b10fcd-6f78-406c-ad28-1f585aadbb3e/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/5f62b983-090f-4e47-b137-04d4d2882610/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Verivox-Tarifempfehlung\")]//..//div[@class=\"owl-item active\"]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]/following-sibling::div[contains(@class,\"row\")]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"xpath","value":"//button[@class=\"btn btn-primary text-uppercase\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"xpath","value":"//button[@class=\"btn btn-primary text-uppercase\"]"}
 RESULT: {"using":"xpath","value":"//button[@class=\"btn btn-primary text-uppercase\"]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/99ffb5f3-236b-4ee8-a733-a2eaf69d5637/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/edbcd52a-5c37-4f9f-b7b7-68facf4a3297/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/030ff320-dcd1-4e9d-87ae-86c2c54c9c9f/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/d10453c8-3e5e-4d39-869f-bb990902ff2a/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/a6a5ca65-0365-4d19-815a-d0efaf68848a/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/01335350-ede2-4850-a293-f91714ae0124/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/73095dbe-231d-413a-b671-7c772576238d/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/31196fdf-c40d-4300-881e-ad71e6d9f454/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/da5d17a9-9271-4d06-bee3-e3089313d2f7/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/c3a6c229-5c5e-4a7e-a6b7-b2ef039c8e60/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/0482a262-d007-492c-8847-8c0905f48c52/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/3d215d02-70a2-482e-95ff-8567fa25da38/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/af9117ae-b091-4645-8fe1-39bde11cf21d/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/c062fffc-9d39-464c-9947-54969846d202/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/078a2702-6081-4a5a-8a46-a841a238310b/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/5d3f65c3-9b14-4a9f-ac52-be0f3062a631/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/a1789c04-eab6-4d66-96ae-e0324f89e9a5/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/8e08fd78-cb64-4b04-a37d-cd04c5850fdc/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/bd53bf7c-9f0a-4d16-b069-6eeccef9ee79/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/72ad4706-5d09-4f65-a58f-00f62d1d46c0/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/8a0b66bb-601c-49b0-a312-2e43140c7591/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/e680ef42-3736-4922-83ae-548dca825b45/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/71019390-eb84-4d07-81b6-1b69f12997bc/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/7d0a0c64-351e-4b8f-bb9a-a09183556a87/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/d363e320-b8db-4b46-8779-583db1ad03be/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/df8a3d9b-55e3-4c4d-8368-a47f1249204f/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/2a2f4993-799b-494f-b8e6-413212bddc16/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/98a8581f-f881-4934-b2c2-22f67cff8b30/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/6cfd5d2e-34bd-436a-a845-7beef44d0058/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/5ad141a5-e795-4879-b5d9-4ffdee1f1817/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/ec07c556-3fc2-4276-bde7-ebaeb769db10/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/6f9733bd-c1b6-406b-bf3a-560ba489aa8b/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/ecc27e64-eb89-4956-92f2-22cceaf43987/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/994802be-dc12-4f75-8e83-cbe88a9b80a8/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/17bb794c-f365-4f82-8e8e-23443802b631/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/a1658cc4-e459-4c02-8fcc-bd342f670d31/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/928ad430-cc63-47a6-a0af-fc63fb3e697e/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/5126ff26-2a61-48d6-bbef-da0351d2b6bc/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.88_0_4324_150.windows.DSL_Calculator_verification" name="Load_multiple_tariff_result_pages" time="40.143">
+    <testcase classname="chrome.88_0_4324_150.windows.DSL_Calculator_verification" name="Load_multiple_tariff_result_pages" time="12.807">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"xpath","value":"//h2[@class=\"summary-tariff\"]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"xpath","value":"//h2[@class=\"summary-tariff\"]"}
 RESULT: {"using":"xpath","value":"//h2[@class=\"summary-tariff\"]"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/9dc97c42-9948-4f96-aaa6-8651a3a3388a/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/41dcfc57-5ed0-4b20-a780-77ba25ea523d/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: GET /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/text - {}
+COMMAND: GET /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/text - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"}]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"}]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"92aee540-f268-49df-9d82-25d89b472445","ELEMENT":"92aee540-f268-49df-9d82-25d89b472445"},true]}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0d1c685-23b9-4fed-a0fa-651b899a41c3","ELEMENT":"d0d1c685-23b9-4fed-a0fa-651b899a41c3"},true]}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element/92aee540-f268-49df-9d82-25d89b472445/click - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element/d0d1c685-23b9-4fed-a0fa-651b899a41c3/click - {}
 RESULT: {}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
 RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
-COMMAND: POST /session/0f253aad66274bf872248ba5207ed8b0/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/elements - {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
 RESULT: {"using":"xpath","value":"//*[contains(text(),\"Ermittelte Tarife\")]//..//..//div[@class=\"row my-4\"]//app-tariff-speed//div[contains(@class,\"speed-download\")]//b"}
-COMMAND: DELETE /session/0f253aad66274bf872248ba5207ed8b0 - {}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: POST /session/c0cc9ad760997d38f2693f8de9ada395/element - {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+RESULT: {"using":"css selector","value":"button[type=\"button\"][class*=btn-primary]"}
+COMMAND: DELETE /session/c0cc9ad760997d38f2693f8de9ada395 - {}
 RESULT: {}
 ]]>
       </system-out>
