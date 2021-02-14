@@ -34,6 +34,9 @@ class DslCal extends Base {
     NavigateToDSlCalCulator(){
         this.DSLMenu.waitForExist({ timeout:3000, interval:100 });
         this.DSLMenu.moveTo();
+        browser.waitUntil(
+            ()=>this.DSLvergleich.isClickable(),{timeout:4000, timeoutMsg: 'DSLvergleich Element not clickable',interval:100}
+        );
         this.DSLvergleich.click();
         this.calForm.waitForExist({ timeout:3000, interval:100 });
     } 
