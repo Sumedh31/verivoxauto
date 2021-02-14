@@ -21,6 +21,7 @@ class DslCal extends Base {
     get ermittelte () {return $$('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]')}
     get loadmore () {return $('//button[@class="btn btn-primary text-uppercase"]')}
     get ermitteltedataspeed (){return $$('//*[contains(text(),"Ermittelte Tarife")]//..//..//div[@class="row my-4"]//app-tariff-speed//div[contains(@class,"speed-download")]//b')}
+    get weiterbutton (){return $('button[type="button"][class*=btn-primary]')}
     //get ermitteltedataspeed (){return $('//*[contains(text(),"Ermittelte Tarife")]/following-sibling::div[contains(@class,"row")]//img[@class="download-icon"]/following-sibling::b')}
     
 
@@ -71,7 +72,29 @@ class DslCal extends Base {
             //expect(speed).toBeGreaterThan(99);
         }
         return isAllSpeedGreaterThanGiven;
+    }
+    GetNumberOFTariffs(){
+        var tariffs=parseInt($('//h2[@class="summary-tariff"]').getText().match(/\d+/g).join(''));
+        return tariffs;
+    }
+    GetNextPageTariffsFromWeiterButton(){
+        var tariffs=parseInt(this.weiterbutton.getText().match(/\d+/g).join(''));
+        return tariffs;
 
+    }
+    LoadNextTariffs(nextPageTariffs){
+        if(this.weiterbutton.isDisplayed()){
+            this.weiterbutton.scrollIntoView();
+            this.weiterbutton.click();
+            this.WaitUntilNextPageElementsAreLoaded(nextPageTariffs);
+            return this.ermitteltedataspeed.length;
+        }
+    }
+    WaitUntilNextPageElementsAreLoaded(nextPageTariffs){
+        //Ensure items are loaded. Condition is evaluated every 100 ms
+        browser.waitUntil(
+            ()=>this.ermitteltedataspeed.length==nextPageTariffs,{timeout:20000, timeoutMsg: 'Not enough items were loaded in Ermittelte Tarif',interval:100}
+        );
     }
 }
 
