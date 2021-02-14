@@ -22,13 +22,16 @@ jobs:
           name: Test to check DSL calculator functionality
           command: npx wdio wdio.conf.js --spec dslcalculator.js
       - run:
+          name: Test to check DSL calculator functionality full tariff load
+          command: npx wdio wdio.conf.js --spec dslcalculatorloadalltariff.js
+      - run:
           name: Running test for checking streets for given post code API
           command: npx wdio wdio.conf.js --spec streetsfrompostcode.js
       - run:
           name: Running test for checking Cities for given post code API
           command: npx wdio wdio.conf.js --spec citiesfrompostcodeapi.js
       - store_test_results:
-          path: report
+          path: Report
 workflows:
   version: 2
   test:

@@ -44,7 +44,7 @@ class DslCal extends Base {
         this.submitbutton.click();
         this.recommended.waitForExist({ timeout:8000, interval:100 });
 
-        //Ensure at least single item is loaded in verivox recommendation before continuing
+        //Ensure at least single item is loaded in verivox recommendation before continuing. Interval every 100 ms.
         browser.waitUntil(
             ()=>this.recommendeditems.length>=1,{timeout:8000, timeoutMsg: 'Not enough items were loaded',interval:100}
         );
@@ -93,7 +93,7 @@ class DslCal extends Base {
     WaitUntilNextPageElementsAreLoaded(nextPageTariffs){
         //Ensure items are loaded. Condition is evaluated every 100 ms
         browser.waitUntil(
-            ()=>this.ermitteltedataspeed.length==nextPageTariffs,{timeout:20000, timeoutMsg: 'Not enough items were loaded in Ermittelte Tarif',interval:100}
+            ()=>this.ermitteltedataspeed.length==nextPageTariffs,{timeout:25000, timeoutMsg: 'Not enough items were loaded in Ermittelte Tarif',interval:100}
         );
     }
 }
