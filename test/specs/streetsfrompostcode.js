@@ -13,8 +13,8 @@ const _headers = {
     "Content-Type": "application/json"
 }
 
-describe('Ensure 10409 post code returns single city', function () {
-    it('verify OK status', async function () {
+describe('Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct', function () {
+    it('Get Cities and iterate those cities. For each of the city get Streets and ensure street name is string and it retains umlaut character ', async function () {
         var citiesreturned;
         var streets;
         //Get Cities returned for each code from postcode array ["10409","77716"]
@@ -27,6 +27,7 @@ describe('Ensure 10409 post code returns single city', function () {
                 var streetcityurl=baseUrl+code+"/"+currentcity+"/streets";
                 res = await api.GET(streetcityurl, _headers);
                 addContext(this, 'Response: ' + JSON.stringify(res.body));
+                console.log("Verify status code");
                 expect(res.statusCode, 'status not OK').to.equal(200);
                 expect(JSON.stringify(res.body), "ERROR is detected in response").contains("Streets");
                 expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");    
@@ -41,6 +42,6 @@ describe('Ensure 10409 post code returns single city', function () {
                 );
             }    
         });
-    });        
+    });       
 
 });

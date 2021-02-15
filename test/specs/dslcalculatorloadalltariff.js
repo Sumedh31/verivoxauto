@@ -1,19 +1,35 @@
 const HomePage = require('../pageobjects/homepage');
 const dslcal = require('../pageobjects/dslcal');
 describe('DSL Calculator Load All Tariff verification', () => {
-    it('DSL calculator page should load all tariff using Weiter Button', () => {        
+    it('open www.verivox.de ', () => {        
         HomePage.open();
         browser.maximizeWindow();
-        HomePage.AcceptCookiesIfExist();
-
+        HomePage.AcceptCookiesIfExist();              
+    });
+    it('Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich', () => {        
         //Navigate to dsl calculator
-        dslcal.NavigateToDSlCalCulator();
-        dslcal.Loadresults("030","100");
-        
+        dslcal.NavigateToDSlCalCulator();       
+    });
+    it('Enter 030 for my area code # Ihre Vorwahl = your area code AND select the 100 Mbit/s option as bandwidth.', () => {       
+       
+        dslcal.Loadresults("030","100");        
+    });
+    it('Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded', () => {       
+       
         //Ensure Verivox recommendation at least shows 1 item
         expect(dslcal.recommendeditems.length).toBeGreaterThan(1);
         //Ensure Ermittelte Tarife at least shows 5 tariffs after calculator search
-        expect(dslcal.ermittelte.length).toBeGreaterThan(5);
+        expect(dslcal.ermittelte.length).toBeGreaterThan(5);   
+    });
+    it('Ensure all the displayed tariffs have bandwidth greater than 100', () => {        
+        
+        //Ensure load More 20 items button is present.        
+        expect(dslcal.loadmore.isDisplayed()).toBe(true);
+        //Ensure All traiffs in ermittlte have download speed greater or equal than 100.    
+        expect(dslcal.EnsureDataSpeedIsGreaterThanGiven(100)).toBe(true);
+    });
+    it('Keep loading more items until all items are loaded.And ensure all tariffs have bandwith greater or equal to 100. Check Weiter button loads correct number of tariffs', () => {        
+        
         //Ensure load More 20 items button is present.        
         expect(dslcal.loadmore.isDisplayed()).toBe(true);
         //Ensure All traiffs in ermittlte have download speed greater or equal than 100.    
@@ -36,12 +52,18 @@ describe('DSL Calculator Load All Tariff verification', () => {
             var nextPageActualTariffsLoaded=dslcal.ermitteltedataspeed.length-previoustariffs;
             //expect(nextPageTariffs).toEqual(dslcal.ermitteltedataspeed.length);
             //Ensure correct number of traiffs have been loaded
-            expect(nextPageActualTariffsLoaded).toEqual(nextPageExpectedTariffs);            
+            console.log("Ensure Weiter button have loaded correct number of tariffs")
+            expect(nextPageActualTariffsLoaded).toEqual(nextPageExpectedTariffs);
         }
-        var actualtariffs=dslcal.ermitteltedataspeed.length;
-        expect(expectedtariffs).toEqual(actualtariffs);
-        //Ensure weiter button is no longer displayed
-        expect(dslcal.weiterbutton.isDisplayed()).toBe(false);
-        
-    })
-})
+        it('Ensure correct tariffs have been loaded', () => {
+            var actualtariffs=dslcal.ermitteltedataspeed.length;
+            expect(expectedtariffs).toEqual(actualtariffs);
+            //Ensure weiter button is no longer displayed
+            expect(dslcal.weiterbutton.isDisplayed()).toBe(false);
+        });
+        it('Ensure Load More items button is not diaplyed anymore', () => {            
+            //Ensure weiter button is no longer displayed
+            expect(dslcal.weiterbutton.isDisplayed()).toBe(false);
+        });
+    });
+});

@@ -15,7 +15,7 @@ const cities = {
 
 describe('Ensure 10409 and 77716 post codes returns respective cities', function () {
         
-    it('verify Responses', async function () {        
+    it('Ensure that each city returned for given post code is in string form. Ensure each post code returns correct cities', async function () {        
         
         Object.keys(cities).forEach(async k => {
             console.log(k);
