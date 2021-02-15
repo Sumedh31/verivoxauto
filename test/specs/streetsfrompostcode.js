@@ -7,42 +7,40 @@ const addContext = require('mochawesome/addContext');
 
 
 const baseUrl = "https://service.verivox.de/geo/latestv2/cities/";
-const berlin =baseUrl+"10409/Berlin/streets";
-const berlinstreets=config.BerlinStreets;
-const berlinstreetsWithoutUmlauts=parser.ConvertToNonWestern(berlinstreets);
+const postcodes=["10409","77716"]
 
 const _headers = {
     "Content-Type": "application/json"
 }
-var _body = {
-    
-};
 
 describe('Ensure 10409 post code returns single city', function () {
-    var res;
-    var entries;
-    
     it('verify OK status', async function () {
+        var citiesreturned;
+        var streets;
+        //Get Cities returned for each code from postcode array ["10409","77716"]
+        postcodes.forEach(async code=>{
+            citiesreturned=parser.GetCities(code);
+            var i=0;
+            //Iterate over each cities returned for the given post code
+            for(i;i<citiesreturned.length;i++){
+                var currentcity=citiesreturned[i]
+                var streetcityurl=baseUrl+code+"/"+currentcity+"/streets";
+                res = await api.GET(streetcityurl, _headers);
+                addContext(this, 'Response: ' + JSON.stringify(res.body));
+                expect(res.statusCode, 'status not OK').to.equal(200);
+                expect(JSON.stringify(res.body), "ERROR is detected in response").contains("Streets");
+                expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");    
+                streets=res.body.Streets;
+                //Iterate over each street returned
+                streets.forEach(street=>{
+                        expect(typeof street).to.equal("string");
+                        expect(config.currentcity.includes(street)).to.be.true;
+                        expect(parser.EnsureExistanceOFGermanCharacter(street,config.currentcity,parser.ConvertToNonWestern(currentcity))).to.be.true;
+                    }                   
         
-        res = await api.GET(berlin, _headers);
-        addContext(this, 'Response: ' + JSON.stringify(res.body));
-        entries=res.body.Streets.length
-        expect(res.statusCode, 'status not OK').to.equal(200);
-        expect(JSON.stringify(res.body), "ERROR is detected in response").contains("Streets");
-        expect(JSON.stringify(res.body), "ERROR is detected in response").not.contains("error");
-    });
+                );
+            }    
+        });
+    });        
 
-    it('verify city is returned', function () {
-        for(i=0;i<entries;i++){
-            expect(typeof res.body.Streets[i]).to.equal("string");
-            expect(berlinstreets.includes(res.body.Streets[i])).to.be.true; 
-        }
-    });
-    it('Verify cities maintain Germanic character', function () {
-        for(i=0;i<entries;i++){
-            expect(typeof res.body.Streets[i]).to.equal("string");
-            expect(parser.EnsureExistanceOFGermanCharacter(res.body.Streets[i],berlinstreets,berlinstreetsWithoutUmlauts)).to.be.true;
-            //expect(berlinstreets.includes(res.body.Streets[i])).to.be.true; 
-        }
-    });
 });

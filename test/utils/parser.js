@@ -1,3 +1,12 @@
+const api = require("../httputil/commonmethods");
+const parser = require("../utils/parser");
+const config = require("../httputil/config");
+const citiesMap = {};
+const citycodes=["10409","77716"];
+const cities=[];
+const _headers = {
+  "Content-Type": "application/json"
+}
 const umlautMap = {
     '\u00dc': 'UE',
     '\u00c4': 'AE',
@@ -8,7 +17,15 @@ const umlautMap = {
     '\u00df': 'ss',
   }
 class Parser{
+    async GetCities(citycode){
+      var i=0;
+      for(i;i<citycodes,length;i++){
+        var url="https://service.verivox.de/geo/latestv2/cities/"+citycode;
+        var res=await api.GET(url, _headers);
+        return res.body.Cities;
+      }
 
+    }
 
     replaceUmlaute(str) {
         return str
