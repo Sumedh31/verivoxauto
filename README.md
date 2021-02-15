@@ -26,16 +26,19 @@ cd verivoxauto
 ```cmd
 npm ci or npm install
 ```
-3- To run a single tests execute
+4- To run a single tests execute
 ```npx wdio wdio.conf.js --spec ./test/specs/dslcalculator.js```
+
 ```npx wdio wdio.conf.js --spec ./test/specs/dslcalculatorloadalltariff.js```
+
 ```npx wdio wdio.conf.js --spec ./test/specs/citiesfrompostcodeapi.js```
+
 ```npx wdio wdio.conf.js --spec ./test/specs/streetsfrompostcode.js```
 
 To run all test use following command
 ``` npm run test```
 
-4- After tests are run generate the report using following commands.
+4- After tests are run, generate the report using following commands.
 ``` allure generate```
 ``` allure open```
 
