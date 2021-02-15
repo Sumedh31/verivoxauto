@@ -37,7 +37,8 @@ To run all test can be run with
 4- After tests are run generate the report using following commands.
 ``` allure generate```
 ``` allure open```
+Reports from the last run can be found at ./allure-report/index.html
 
 # Room for Improvements:
 1:Allure reports artifacts can be pushed to circleci.
-2: The API tests are run as a part of wdio test which is not the classiest way to run these tests. They can be run as apart of jasmin or some other framework intsead of wdio.  
+2: The API tests are run as a part of wdio test which is not the classiest way to run these tests. They can be run as apart of jasmin or some other framework intsead of wdio.
