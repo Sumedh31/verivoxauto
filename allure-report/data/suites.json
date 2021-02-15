@@ -1,0 +1,190 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "DSL Calculator verification",
+    "children" : [ {
+      "name" : "open www.verivox.de ",
+      "uid" : "3d9da3c9ad090d1e",
+      "parentUid" : "6259e56a81b773924cc6f590d215c448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411618607,
+        "stop" : 1613411626463,
+        "duration" : 7856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich",
+      "uid" : "77ee830c1db64e9b",
+      "parentUid" : "6259e56a81b773924cc6f590d215c448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411626465,
+        "stop" : 1613411633151,
+        "duration" : 6686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Enter 030 for my area code # Ihre Vorwahl = your area code AND select the 100 Mbit/s option as bandwidth.",
+      "uid" : "b9f8c766d0784b64",
+      "parentUid" : "6259e56a81b773924cc6f590d215c448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411633153,
+        "stop" : 1613411659347,
+        "duration" : 26194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded",
+      "uid" : "8c899b7828814ac6",
+      "parentUid" : "6259e56a81b773924cc6f590d215c448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411659348,
+        "stop" : 1613411659685,
+        "duration" : 337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Ensure that all the tariffs loaded have bandwidth greater or equal than 100",
+      "uid" : "f84c603774c22aea",
+      "parentUid" : "6259e56a81b773924cc6f590d215c448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411659688,
+        "stop" : 1613411668372,
+        "duration" : 8684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "6259e56a81b773924cc6f590d215c448"
+  }, {
+    "name" : "DSL Calculator Load All Tariff verification",
+    "children" : [ {
+      "name" : "open www.verivox.de ",
+      "uid" : "ae173cd8a4eff968",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411618735,
+        "stop" : 1613411627782,
+        "duration" : 9047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich",
+      "uid" : "2097c3d3bd4a791f",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411627785,
+        "stop" : 1613411634202,
+        "duration" : 6417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Enter 030 for my area code # Ihre Vorwahl = your area code AND select the 100 Mbit/s option as bandwidth.",
+      "uid" : "4f435d938dc56d61",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411634204,
+        "stop" : 1613411654880,
+        "duration" : 20676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded",
+      "uid" : "220392176b132a00",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411654881,
+        "stop" : 1613411655186,
+        "duration" : 305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Ensure all the displayed tariffs have bandwidth greater than 100",
+      "uid" : "83d5d7a85968560f",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411655187,
+        "stop" : 1613411665622,
+        "duration" : 10435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Keep loading more items until all items are loaded.And ensure all tariffs have bandwith greater or equal to 100. Check Weiter button loads correct number of tariffs",
+      "uid" : "9c2efd8e097f916f",
+      "parentUid" : "3794a5d91a924954d768c53eda3ea4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411665624,
+        "stop" : 1613411684470,
+        "duration" : 18846
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "3794a5d91a924954d768c53eda3ea4cd"
+  }, {
+    "name" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct",
+    "children" : [ {
+      "name" : "Get Cities and iterate those cities. For each of the city get Streets and ensure street name is string and it retains umlaut character ",
+      "uid" : "d6bb4f0c8b9b1d",
+      "parentUid" : "d35074c9ee3b803b90ed763b0139adf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411622032,
+        "stop" : 1613411622046,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "d35074c9ee3b803b90ed763b0139adf8"
+  }, {
+    "name" : "Ensure 10409 and 77716 post codes returns respective cities",
+    "children" : [ {
+      "name" : "Ensure that each city returned for given post code is in string form. Ensure each post code returns correct cities",
+      "uid" : "b23b15b416d4be48",
+      "parentUid" : "bfaffcd5656a5e7a4e6550c5cb2e1f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613411622588,
+        "stop" : 1613411622643,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "bfaffcd5656a5e7a4e6550c5cb2e1f89"
+  } ]
+}

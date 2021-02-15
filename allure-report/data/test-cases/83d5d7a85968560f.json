@@ -1,0 +1,58 @@
+{
+  "uid" : "83d5d7a85968560f",
+  "name" : "Ensure all the displayed tariffs have bandwidth greater than 100",
+  "fullName" : "DSL Calculator Load All Tariff verification.Ensure all the displayed tariffs have bandwidth greater than 100",
+  "historyId" : "96bf67f32c9d976250b0cbe7e61d01af",
+  "time" : {
+    "start" : 1613411655187,
+    "stop" : 1613411665622,
+    "duration" : 10435
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testClass",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ensure all the displayed tariffs have bandwidth greater than 100"
+  }, {
+    "name" : "package",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83d5d7a85968560f.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

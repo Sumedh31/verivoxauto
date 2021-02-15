@@ -1,0 +1,58 @@
+{
+  "uid" : "220392176b132a00",
+  "name" : "Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded",
+  "fullName" : "DSL Calculator Load All Tariff verification.Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded",
+  "historyId" : "98694f81b0f59ae283c741fd62fcbbe2",
+  "time" : {
+    "start" : 1613411654881,
+    "stop" : 1613411655186,
+    "duration" : 305
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testClass",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ensure at least 1 Verivox recommended tariffs are loaded and at least 5 tariffs in Ermittelte for given bandwidth are loaded"
+  }, {
+    "name" : "package",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "220392176b132a00.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

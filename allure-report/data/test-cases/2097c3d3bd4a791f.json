@@ -1,0 +1,58 @@
+{
+  "uid" : "2097c3d3bd4a791f",
+  "name" : "Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich",
+  "fullName" : "DSL Calculator Load All Tariff verification.Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich",
+  "historyId" : "44ba0d9e750293e3e315acd700c2d7fe",
+  "time" : {
+    "start" : 1613411627785,
+    "stop" : 1613411634202,
+    "duration" : 6417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testClass",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the DSL calculator page using Menu navigation DSL --> Dsl-vergleich"
+  }, {
+    "name" : "package",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2097c3d3bd4a791f.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

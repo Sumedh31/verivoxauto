@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "3794a5d91a924954d768c53eda3ea4cd",
+    "name" : "DSL Calculator Load All Tariff verification",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "6259e56a81b773924cc6f590d215c448",
+    "name" : "DSL Calculator verification",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "d35074c9ee3b803b90ed763b0139adf8",
+    "name" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bfaffcd5656a5e7a4e6550c5cb2e1f89",
+    "name" : "Ensure 10409 and 77716 post codes returns respective cities",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

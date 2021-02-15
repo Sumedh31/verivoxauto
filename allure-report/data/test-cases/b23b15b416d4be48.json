@@ -1,0 +1,58 @@
+{
+  "uid" : "b23b15b416d4be48",
+  "name" : "Ensure that each city returned for given post code is in string form. Ensure each post code returns correct cities",
+  "fullName" : "Ensure 10409 and 77716 post codes returns respective cities.Ensure that each city returned for given post code is in string form. Ensure each post code returns correct cities",
+  "historyId" : "62df935d0ef8597888d7abed70ef26f8",
+  "time" : {
+    "start" : 1613411622588,
+    "stop" : 1613411622643,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ensure 10409 and 77716 post codes returns respective cities"
+  }, {
+    "name" : "testClass",
+    "value" : "Ensure 10409 and 77716 post codes returns respective cities"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ensure that each city returned for given post code is in string form. Ensure each post code returns correct cities"
+  }, {
+    "name" : "package",
+    "value" : "Ensure 10409 and 77716 post codes returns respective cities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b23b15b416d4be48.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

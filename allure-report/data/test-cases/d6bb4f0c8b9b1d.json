@@ -1,0 +1,58 @@
+{
+  "uid" : "d6bb4f0c8b9b1d",
+  "name" : "Get Cities and iterate those cities. For each of the city get Streets and ensure street name is string and it retains umlaut character ",
+  "fullName" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct.Get Cities and iterate those cities. For each of the city get Streets and ensure street name is string and it retains umlaut character ",
+  "historyId" : "43e46387400b01c6a9a25482aff1b709",
+  "time" : {
+    "start" : 1613411622032,
+    "stop" : 1613411622046,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct"
+  }, {
+    "name" : "testClass",
+    "value" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Cities and iterate those cities. For each of the city get Streets and ensure street name is string and it retains umlaut character "
+  }, {
+    "name" : "package",
+    "value" : "Ensure 10409 and 77716 postcode returns respective cities and streets from those cities are correct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6bb4f0c8b9b1d.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

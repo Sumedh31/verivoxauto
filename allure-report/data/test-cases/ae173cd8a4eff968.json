@@ -1,0 +1,58 @@
+{
+  "uid" : "ae173cd8a4eff968",
+  "name" : "open www.verivox.de ",
+  "fullName" : "DSL Calculator Load All Tariff verification.open www.verivox.de ",
+  "historyId" : "ce53b55cb98f08fef6dce9440caea8c",
+  "time" : {
+    "start" : 1613411618735,
+    "stop" : 1613411627782,
+    "duration" : 9047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testClass",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "open www.verivox.de "
+  }, {
+    "name" : "package",
+    "value" : "DSL Calculator Load All Tariff verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae173cd8a4eff968.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

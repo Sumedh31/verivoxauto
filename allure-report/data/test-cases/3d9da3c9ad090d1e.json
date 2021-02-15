@@ -1,0 +1,58 @@
+{
+  "uid" : "3d9da3c9ad090d1e",
+  "name" : "open www.verivox.de ",
+  "fullName" : "DSL Calculator verification.open www.verivox.de ",
+  "historyId" : "61826442be9f986a41293bd5256a4105",
+  "time" : {
+    "start" : 1613411618607,
+    "stop" : 1613411626463,
+    "duration" : 7856
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "DSL Calculator verification"
+  }, {
+    "name" : "testClass",
+    "value" : "DSL Calculator verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "open www.verivox.de "
+  }, {
+    "name" : "package",
+    "value" : "DSL Calculator verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d9da3c9ad090d1e.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}
