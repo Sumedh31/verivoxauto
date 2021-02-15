@@ -1,13 +1,20 @@
 # WebDriverIO Tests for Verivox
 
 # Framework
-The tests are located at
+Following test have been implemented. The test cases with description steps about their functional test steps are written at ./TestCases/TestcasesVerivox.pdf.
 
 .test/specs/dslcalculator.js This test ensures that DSL calculator page is loaded and does several checks for loading different tariffs.
+
 .test/specs/dslcalculatorloadalltariff.js This test ensures that all traiffs can be loaded and it's consecutive checks are asserted.
+
 .test/specs/citiesfrompostcodeapi.js This test ensures that API which fetches cities for given post code works fine.
+
+.test/specs/streetsfrompostcode.js This test ensures Streets from cities are returned correctly.
+
 .test/pageobjects/* contains the elements stored in page object format
+
 .test/httputil/* have http utility class that deals with GET,POST,PUT,DELETE
+
 ./test/utils/parse.js class have utility methods that are used to parse api responses
 
 # Run test
