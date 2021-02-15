@@ -1,6 +1,6 @@
 const HomePage = require('../pageobjects/homepage');
 const dslcal = require('../pageobjects/dslcal');
-describe('DSL Calculator verification', () => {
+describe('DSL Calculator Load All Tariff verification', () => {
     it('DSL calculator page should load all tariff using Weiter Button', () => {        
         HomePage.open();
         browser.maximizeWindow();
