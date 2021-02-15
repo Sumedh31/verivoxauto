@@ -14,7 +14,7 @@ The tests are located at
 Tests are configured to run on circleci. You can use /.circleci/config.yml to setup the job run on circleci.
 Please checkout the current build at https://app.circleci.com/pipelines/github/Sumedh31/verivoxauto 
 
-Alternatively to run the tests locally please followbelow steps:
+Alternatively to run the tests locally please follow below steps:
 
 1-Download this repo
 
