@@ -36,9 +36,8 @@ describe('Ensure 10409 and 77716 postcode returns respective cities and streets 
                 streets.forEach(street=>{
                         expect(typeof street).to.equal("string");
                         expect(config.currentcity.includes(street)).to.be.true;
-                        expect(parser.EnsureExistanceOFGermanCharacter(street,config.currentcity,parser.ConvertToNonWestern(currentcity))).to.be.true;
-                    }                   
-        
+                        expect(parser.EnsureExistanceOFUmlautAndSpecials(street,config.currentcity,parser.RemoveUmlautAndSpecials(currentcity))).to.be.true;
+                    }
                 );
             }    
         });

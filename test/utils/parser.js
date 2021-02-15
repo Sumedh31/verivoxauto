@@ -37,12 +37,14 @@ class Parser{
             (a) => umlautMap[a]
           );
       }
-    ConvertToNonWestern(Streets){
+    RemoveUmlautAndSpecials(Streets){
         var ConvertedStreets=[];
-        Streets.forEach((str) =>  ConvertedStreets.push(this.replaceUmlaute(str)));
+        Streets.forEach((str) =>  {
+          str=str.replace(/[.-]/g, '');
+          ConvertedStreets.push(this.replaceUmlaute(str))});
         return ConvertedStreets;
     }
-    EnsureExistanceOFGermanCharacter(str,StreetNameInGermanicLetter,StreetNameConverted){
+    EnsureExistanceOFUmlautAndSpecials(str,StreetNameInGermanicLetter,StreetNameConverted){
         if(StreetNameConverted.includes(str) && !StreetNameInGermanicLetter.includes(str))
         {
             return false;
