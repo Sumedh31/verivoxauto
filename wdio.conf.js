@@ -19,6 +19,20 @@ exports.config = {
     specs: [
         './test/specs/**/*.js'
     ],
+    suites: {
+        DSLCalculator: [
+            './test/specs/dslcalculator.js'
+        ],
+        DSLCalculatorAllTariffs: [
+            './test/specs/dslcalculatorloadalltariff.js'
+        ],
+        CitiesAPI: [
+            './test/specs/citiesfrompostcodeapi.js'
+        ],
+        StreetFromCitiesAPI: [
+            './test/specs/streetsfrompostcode.js'
+        ]
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
