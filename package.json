@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js && wdio-junit-to-html -i ./Reports/junit-report -o ./Reports/junit-report"
+    "test": "wdio wdio.conf.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@wdio/allure-reporter": "^7.0.3",
     "@wdio/cli": "^6.12.0",
     "@wdio/junit-reporter": "^7.0.3",
     "@wdio/local-runner": "^6.12.0",
